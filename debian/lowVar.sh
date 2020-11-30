@@ -3,6 +3,6 @@
 # This will install the Real-Time kernel and tuned with the latency-performance profile.
 # Remember to reboot to the new kernel after the installation.
 sudo apt-get update
-sudo apt-get install tuned
+sudo apt-get -y install tuned
 sudo tuned-adm profile latency-performance
-sudo apt-get install linux-image-rt-amd64
+sudo apt-get -y install linux-image-rt-amd64
