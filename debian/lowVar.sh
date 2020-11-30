@@ -4,5 +4,5 @@
 # Remember to reboot to the new kernel after the installation.
 sudo apt-get update
 sudo apt-get install tuned
-sudo tuned-adm latency-performance
+sudo tuned-adm profile latency-performance
 sudo apt-get install linux-image-rt-amd64
