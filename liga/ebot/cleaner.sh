@@ -13,5 +13,5 @@ elif [ $UPLOADCHECK == 0 ]; then
   COUNT=$(rm -vf $CSGOPATH/ebot_${MATCHID}_* | wc -l)
   echo "$TIMESTAMP Removed $COUNT backup files" >> $LOGFILE
 else
-  echo "$TIMESTAMP Not sure why I ended up here! File: cleaner.sh Demofile: $DEMOFILE Matchid: $MATCHID and Uploadcheck: $UPLOADCHECK" >> $LOGAFILE
+  echo "$TIMESTAMP Not sure why I ended up here! File: cleaner.sh Demofile: $DEMOFILE Matchid: $MATCHID and Uploadcheck: $UPLOADCHECK" >> $LOGFILE
 fi
