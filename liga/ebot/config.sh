@@ -4,7 +4,7 @@ LGSMPATH=/home/cs/liga
 SCRIPTPATH=$LGSMPATH/scripts/ebot
 LGSMCONSOLELOGS=$LGSMPATH/log/console/*-console.log
 CSGOPATH=$LGSMPATH/serverfiles/csgo
-LOGFILE=./service.log
+LOGFILE=$SCRIPTPATH/service.log
 TIMESTAMP=`date "+%Y-%m-%d %H:%M:%S"`
 
 # Function to test if the .dem file is uploaded or not
