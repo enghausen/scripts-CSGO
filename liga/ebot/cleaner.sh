@@ -1,4 +1,5 @@
 #!/bin/bash
+# Use this in crontab for a daily clean-up or add it to the uploader.sh for clean-up right after a file is uploaded
 source /home/cs/liga/scripts/ebot/config.sh
 DEMOFILE=$1
 MATCHID=${DEMOFILE%%_*}
