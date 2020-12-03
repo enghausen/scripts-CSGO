@@ -1,4 +1,4 @@
 #!/bin/bash
-source ./config.sh
+source $SCRIPTPATH/config.sh
 echo "$TIMESTAMP Started service.sh" >> $LOGFILE
-screen -dmS "logger.sh" ./logger.sh
+screen -dmS "logger.sh" $SCRIPTPATH/logger.sh
