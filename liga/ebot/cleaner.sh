@@ -1,9 +1,10 @@
 #!/bin/bash
-source $SCRIPTPATH/config.sh
+source /home/cs/liga/scripts/ebot/config.sh
 DEMOFILE=$1
 MATCHID=${DEMOFILE%%_*}
 UPLOADCHECK=$(upload_check $DEMOFILE)
 
+# Statement to remove old .dem and ebot round backup files
 if [ $UPLOADCHECK == 1 ]; then
   echo "$TIMESTAMP No demo no cleaning! Missing the Demofile: $DEMOFILE - Need a human to clean it for me! :-)" >> $LOGFILE
 elif [ $UPLOADCHECK == 0 ]; then
