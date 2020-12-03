@@ -1,7 +1,7 @@
 #!/bin/bash
 DOMAIN=ebot.domain.com
-SCRIPTPATH=/home/cs/liga/scripts/ebot
 LGSMPATH=/home/cs/liga
+SCRIPTPATH=$LGSMPATH/scripts/ebot
 LGSMCONSOLELOGS=$LGSMPATH/log/console/*-console.log
 CSGOPATH=$LGSMPATH/serverfiles/csgo
 LOGFILE=./service.log
