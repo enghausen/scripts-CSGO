@@ -1,5 +1,5 @@
 #!/bin/bash
-source ./config.sh
+source $SCRIPTPATH/config.sh
 DEMOFILE=$1
 MATCHID=${DEMOFILE%%_*}
 UPLOADCHECK=$(upload_check $DEMOFILE)
