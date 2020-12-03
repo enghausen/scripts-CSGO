@@ -1,11 +1,13 @@
 #!/bin/bash
 DOMAIN=ebot.domain.com
+SCRIPTPATH=/home/cs/liga/scripts/ebot
 LGSMPATH=/home/cs/liga
 LGSMCONSOLELOGS=$LGSMPATH/log/console/*-console.log
 CSGOPATH=$LGSMPATH/serverfiles/csgo
 LOGFILE=./service.log
 TIMESTAMP=`date "+%Y-%m-%d %H:%M:%S"`
 
+# Function to test if the .dem file is uploaded or not
 upload_check () {
   local DEMOFILE=$1
   local MATCHID=${DEMOFILE%%_*}
