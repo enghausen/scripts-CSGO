@@ -1,5 +1,5 @@
 #!/bin/bash
-# Tested on Debian 10 and will install multitail
+# Tested on Debian 10 and will install multitail and curl
 sudo apt-get update
 sudo apt-get -y install multitail curl
 wget https://raw.githubusercontent.com/enghausen/scripts-CSGO/main/liga/ebot/cleaner.sh
