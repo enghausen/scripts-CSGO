@@ -1,6 +1,6 @@
 #!/bin/bash
 # This cleaner.sh is executed right after the .dem file is uploaded to ebotweb. You can also trigger it manually with ./cleaner.sh demoname.dem
-source /home/cs/liga/scripts/ebot/config.sh
+source /home/cs/ebot/scripts/ebot/config.sh
 DEMOFILE=$1
 MATCHID=${DEMOFILE%%_*}
 UPLOADCHECK=$(upload_check $DEMOFILE)
