@@ -1,3 +1,3 @@
 #!/bin/bash
-/home/cs/liga/1 restart
-/home/cs/liga/2 restart
+/home/cs/ebot/1 restart
+/home/cs/ebot/2 restart
