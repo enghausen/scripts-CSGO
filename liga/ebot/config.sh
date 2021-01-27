@@ -1,6 +1,6 @@
 #!/bin/bash
 DOMAIN=ebot.domain.com
-LGSMPATH=/home/cs/liga
+LGSMPATH=/home/cs/ebot
 SCRIPTPATH=$LGSMPATH/scripts/ebot
 LGSMCONSOLELOGS=$LGSMPATH/log/console/*-console.log
 CSGOPATH=$LGSMPATH/serverfiles/csgo
