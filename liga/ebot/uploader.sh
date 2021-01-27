@@ -1,5 +1,5 @@
 #!/bin/bash
-source /home/cs/liga/scripts/ebot/config.sh
+source /home/cs/ebot/scripts/ebot/config.sh
 DEMOFILE=$1
 curl -F "file=@$CSGOPATH/$1" https://$DOMAIN:12360/upload
 UPLOADCHECK=$(upload_check $DEMOFILE)
