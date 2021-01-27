@@ -1,7 +1,7 @@
 #!/bin/bash
-# Tested on Debian 10 and will install multitail and curl
+# Tested on Debian 10 and will install multitail, curl and screen
 sudo apt-get update
-sudo apt-get -y install multitail curl
+sudo apt-get -y install multitail curl screen
 wget https://raw.githubusercontent.com/enghausen/scripts-CSGO/main/ebot/cleaner.sh
 wget https://raw.githubusercontent.com/enghausen/scripts-CSGO/main/ebot/config.sh
 wget https://raw.githubusercontent.com/enghausen/scripts-CSGO/main/ebot/logger.sh
