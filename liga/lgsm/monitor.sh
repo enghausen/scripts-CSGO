@@ -1,3 +1,3 @@
 #!/bin/bash
-/home/cs/liga/1 monitor
-/home/cs/liga/2 monitor
+/home/cs/ebot/1 monitor
+/home/cs/ebot/2 monitor
